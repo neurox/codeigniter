@@ -95,8 +95,8 @@ class MY_Loader extends CI_Loader
             }
         }
 
-        $spark = ltrim($spark, '/');
-        $spark = rtrim($spark, '/');
+        $spark = ltrim($spark,'/');
+        $spark = rtrim($spark,'/');
 
         $spark_path = SPARKPATH . $spark . '/';
         $parts      = explode('/', $spark);
@@ -263,3 +263,5 @@ class MY_Loader extends CI_Loader
         }
 	}
 }
+
+?>

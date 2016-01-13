@@ -1,5 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access
-allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class MY_Controller extends CI_Controller {
     function __construct() {
         parent::__construct();
@@ -11,3 +10,4 @@ class MY_Controller extends CI_Controller {
         $this->lang->load('en_admin', 'english');
     }
 }
+?>
